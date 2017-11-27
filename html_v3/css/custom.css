@@ -1,0 +1,246 @@
+.feed-box, .recent-activities{
+	border: none;
+  background: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.form_tabs .nav-link{
+	    font-size: 15px;
+    padding: 10px 10px;
+    color: #464a4c;
+}
+
+.form_tabs .nav-link.active{
+	    color: #f7941e;
+}
+.form_tabs .tab-pane{
+	padding-top:20px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #f58632;
+    border-color: #f58632;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #7d7d7d;
+    border-color: #7d7d7d;
+}
+.machine-registration .select select {
+	font-size: 18px!important;
+}
+.machine img{
+    width: 146px;
+    height: 97px;
+    text-align: center;
+}
+.machine{
+    width: 100%;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.home-page.active nav.navbar{
+    width: calc(100% - 68px);
+}
+
+.shrink .sidenav-header img {
+  width: inherit;
+  margin-left: 156px;
+}
+.entry_time{
+    font-size: 13px;
+    margin-top: 6px;
+}
+.entry_time span{
+    font-weight: bold;
+}
+.activities_table{
+    height: 215px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.dot_mrgn{
+    margin-top: 3px;
+}
+.status_list{
+    list-style: none;
+}
+.status_list li{
+    padding: 9px 0px!important;
+}
+.status_list span{
+        float: right;
+    padding: 8px;
+    color: #fff!important;
+    border-radius: 30px;
+    background: #f7941e;
+    font-weight: 800!important;
+}
+.status_card{
+    padding: 5px!important;
+}
+.select_holder{
+    background: #fff;
+}
+.card_status{
+    margin-bottom: 20px;
+}
+.status_list li{
+    font-size: 15px;
+}
+.table_margin{
+    margin-top: 30px;
+}
+.output_table{
+    margin-top: -11px;
+}
+td.date_table{
+    width:57%;
+}
+.section_top a{
+    color: #f7941e;
+}
+.section_top a:hover{
+    color: #373737;
+    text-decoration: none;
+}
+.btn_top{
+    background: #ffd29e;
+    padding: 7px 9px;
+    border-radius: 3px;
+    color: #8d5716!important;
+    font-size: 14px!important;
+    margin-right: 0px!important;
+    border: 1px solid #ffad4b;
+    float: right;
+}
+.card_status .form-group{
+    margin-bottom:0px;
+}
+.table_overflow{
+    overflow:scroll;
+    margin:0px 20px;
+    padding: 0px!important;
+}
+.btn_report{
+    margin-top: 24px;
+    line-height: 0.25;
+}
+.remarks{
+    margin-top: 10px;
+    border-top: 1px solid #e3e3e3;
+    padding: 10px 0px 0px 0px;
+    font-size: 13px;
+}
+.maintenance_icon{
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0px -10px;
+    color: #414040;
+    padding: 10px 0px;
+    border-top: 1px solid #e3e3e3;
+}
+.maintenance_icon i{
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.card.shifts {
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f7941e;
+    text-align: center;
+    color: #fff;
+}
+.shifts h2{
+    font-size: 90px!important;
+    font-weight: 100!important;
+}
+.shifts h2 span{
+    font-size: 25px!important;
+    font-weight: 600!important;
+    display: inline-block;
+    color: #fff;
+}
+.play_circle{
+    font-size: 100px;
+}
+.shifts h1{
+    margin-top: -24px;
+}
+
+.status_icon.shift{
+    margin: 10px -15px -15px;
+    background: #fff;
+    padding:20px 0px;
+}
+
+span.note{
+    margin-top: 7px;
+    font-size: 12px;
+    display:block;
+    color: #666;
+}
+ul.item-actions-list{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+ul.item-actions-list li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+ul.item-actions-list i{
+   color: #f7941e;
+}    
+.shift_edits i{
+    color: #fff;
+}
+.shift_edits_main i{
+    color: #fff;
+}
+.role i{
+    font-size: 50px;
+}
+.role h2{
+    margin-bottom: 35px!important;
+}
+.data-usage a{
+    color: #fff;
+}
+.data-usage a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.main-footer{
+    font-size: 12px;
+}
+.main-footer a{
+    padding:0px 5px;
+    color: #999;
+}
+@media screen and (min-width:320px) and (max-width:768px){
+.nav-item{
+    margin-right:75px!important;
+}
+.dropdown{
+    margin-right:0px!important;
+}
+.float-right{
+    float:left!important;
+    margin-top: 8px!important;
+}
+.align-items-stretch{
+        margin-top: 40px;
+}
+.display ul{
+ margin: 10px;
+}
+
+}
